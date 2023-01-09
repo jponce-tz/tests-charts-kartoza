@@ -25,9 +25,9 @@ existingSecret: |
 #     value: "VALUE_2"
 extraPodEnv: |
   - name: INITIAL_MEMORY
-    value: "2G"
+    value: "1G"
   - name: MAXIMUM_MEMORY
-    value: "4G"
+    value: "2G"
 
 # This will be evaluated as pod spec
 extraPodSpec: |

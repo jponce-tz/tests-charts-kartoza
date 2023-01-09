@@ -86,7 +86,7 @@ spec:
             httpGet:
               path: /geoserver
               port: http-geoserver
-            failureThreshold: 60
+            failureThreshold: 300
             periodSeconds: 5
           livenessProbe:
             httpGet:
