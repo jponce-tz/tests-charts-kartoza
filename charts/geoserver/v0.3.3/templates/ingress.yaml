@@ -23,7 +23,7 @@ spec:
   - host: geoserver.{{ .Values.ingress.host }}
     http:
       paths:
-        - path: /
+        - path: /geoserver
           pathType: Prefix
           backend:
             service:
