@@ -20,10 +20,10 @@ metadata:
   namespace: {{ .Release.Namespace }}
 spec:
   rules:
-  - host: {{ .Values.ingress.host }}
+  - host: geoserver.{{ .Values.ingress.host }}
     http:
       paths:
-        - path: /geoserver
+        - path: /
           pathType: Prefix
           backend:
             service:

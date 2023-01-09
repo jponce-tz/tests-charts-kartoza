@@ -79,10 +79,10 @@ affinity: {}
 tolerations: {}
 
 ingress:
-  enabled: false
+  enabled: true
   annotations: {}
   labels: {}
-  host: geoserver.hostname
+  host: hostname
   tls:
     enabled: false
     ## Provide secret name if tls is enabled
