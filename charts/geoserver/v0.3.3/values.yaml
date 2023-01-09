@@ -84,7 +84,7 @@ ingress:
   labels: {}
   host: hostname
   tls:
-    enabled: false
+    enabled: true
     ## Provide secret name if tls is enabled
     secretName: geoserver-tls
 
