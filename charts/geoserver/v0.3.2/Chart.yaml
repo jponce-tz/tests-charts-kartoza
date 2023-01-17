@@ -8,7 +8,7 @@ keywords:
   - GIS
 home: http://geoserver.org
 sources:
-  - https://github.com/geoserver/geoserver
+  - https://github.com/jponce-tz/tests-geoserver
 maintainers:
   - name: lucernae
     email: lana.pcfre@gmail.com

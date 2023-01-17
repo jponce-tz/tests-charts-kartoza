@@ -27,7 +27,7 @@ The default install uses kartoza/geoserver image, which can do the following:
 - Generate new datadir at startup if volume empty
 - Some plugins are shipped
 
-Full list of options can be seen in: https://github.com/kartoza/docker-geoserver/
+Full list of options can be seen in: https://github.com/jponce-tz/tests-docker-geoserver/
 
 # Parameters
 
